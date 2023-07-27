@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 9vh;
+    /* line-height: 75px; */
+    padding: 0 5vw;
+    position: relative;
+    display: flex;
+    background-image: -moz-linear-gradient(white, antiquewhite);
+}
+nav .logo{
+    padding: 0 14vh; /*updated 27 july */
+    font-size: 3rem;
+    font-weight: bolder;
+    float: left;
+    color: black;
+    cursor: pointer;
+    /* letter-spacing: 1.5px; */ /*updated 27 july */
+    /* padding: 0 50px; */ /*updated 27 july */
+}
+nav ul{
+    float: right;
+    display: inline-flex;
+    /* flex-basis: 40%; */
+
+    padding: 0 19rem;
+
+    align-items: center;
+    position: relative;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    font-size: 1.5vw;
+    padding: 0 1rem;
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: orange;
+}
+/* Edited on 26 th  */
+.main details{
+    display: flex;
+    flex: 100%;
+}
+.main hero{
+    display: flex;
+}
+
+
+
+/* Edited on 26th  */
+.me img{
+    display: flex;
+    height: 23vh;    /*updated 27 july */
+    border-radius: 100%;
+    padding: 0 2.5vw;   /*updated 27 july */
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.me img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+}
+p1{
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+    color: #4e4039;
+}
+p2{
+    font-family: "Raleway", sans-serif;
+    color: #a08f86;
+}
+p3{
+    color:#5a6570;;
+}
+p4{
+    color:#5a6570;;
+}
+p5{
+    color:#5a6570;;
+}
+p6{
+    color:#5a6570;;
+}
+p7{
+    color:#5a6570;;
+}
+.hero img{
+    float: right;
+    padding: 0 ;
+    height: 24vw;   /*updated 27 july */
+    position: relative;
+    animation-name: shacklogo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+ @keyframes shacklogo{
+    0%{
+        top: 0rem;  /*updated 27 july */
+        bottom: 2rem;   /*updated 27 july */
+    }
+    100%{
+        top: 2rem;   /*updated 27 july */
+        bottom: 0rem;   /*updated 27 july */
+    }
+} 
+ .details{
+    width: 50vw;  /*updated 27 july */
+    height: 90vh;  /*updated 27 july */
+}
+.main{
+    display: flex;
+}
+p{
+    font-size: 1.5rem;  /*updated 27 july */
+}
+.end{
+    padding: 0 1rem;  /*updated 27 july */
+}
+footer{
+    background-color: #fef8f5;
+    height: 8vh;  /*updated 27 july */
+    color: black;
+} 
+
+@media only screen and (max-width: 1130px){
+    .main .me .details{
+        display: inline-flex;
+        flex-basis: 1;
+    }
+
+}
